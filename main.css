@@ -1,11 +1,23 @@
 .wrapper{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 5fr 40fr 5fr;
-    grid-row-gap: 2em;
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
 }
 
 section{
     border: solid 1px gray;
     padding: 1rem;
+    margin-bottom: 1em;
+}
+
+section.header{
+    flex-basis: 5%;
+}
+
+section.content{
+    flex-basis: 80%;
+}
+
+section.footer{
+    flex-basis: 5%;
 }
