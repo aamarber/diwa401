@@ -1,0 +1,11 @@
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 5fr 40fr 5fr;
+    grid-row-gap: 2em;
+}
+
+section{
+    border: solid 1px gray;
+    padding: 1rem;
+}
